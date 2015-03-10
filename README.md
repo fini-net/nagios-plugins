@@ -2,6 +2,8 @@
 
 Perfect Audience nagios plugins
 
+:warning:  :no_mouth:  This is a public repo.  Don't be :sleepy: or commit secrets :secret: here :exclamation:
+
 ## Docs
 
 * [nagios.org 4.0](http://nagios.sourceforge.net/docs/nagioscore/4/en/toc.html)
