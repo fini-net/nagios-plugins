@@ -4,8 +4,16 @@
 
 These nagios plugins are maintained by Perfect Audience / Marin Software.
 
-[configs/](/configs/) holds nagios server configs to make it easier to use the plugins repo
+[config/](/config/) holds nagios server configs to make it easier to use the plugins repo
 on the nagios server itself.
+
+## LInks
+
+These are the links typically configured as follows replacing `GIT` with where you
+checked out this repo:
+
+* `/usr/lib/nagios/plugins/` -> `GIT`
+* `/etc/nagios-plugins/config/` -> `GIT/config`
 
 ## Docs
 
