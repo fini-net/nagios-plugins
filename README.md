@@ -1,8 +1,19 @@
 # PA nagios-plugins
 
-Perfect Audience nagios plugins
-
 :warning:  :no_mouth:  This is a public repo.  Don't be :sleepy: or commit secrets :secret: here :exclamation:
+
+These nagios plugins are maintained by Perfect Audience / Marin Software.
+
+[config/](/config/) holds nagios server configs to make it easier to use the plugins repo
+on the nagios server itself.
+
+## LInks
+
+These are the links typically configured as follows replacing `GIT` with where you
+checked out this repo:
+
+* `/usr/lib/nagios/plugins/` -> `GIT`
+* `/etc/nagios-plugins/config/` -> `GIT/config`
 
 ## Docs
 
@@ -15,6 +26,7 @@ Perfect Audience nagios plugins
 
 * [nagios core](https://github.com/NagiosEnterprises/nagioscore)
 * [nagios-plugins.org](https://github.com/nagios-plugins/nagios-plugins)
+* Ubuntu 14LTS packages
 
 ## Credits
 
