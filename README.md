@@ -1,8 +1,8 @@
-# PA nagios-plugins
+# FINI nagios-plugins
 
 :warning:  :no_mouth:  This is a public repo.  Don't be :sleepy: or commit secrets :secret: here :exclamation:
 
-These nagios plugins are maintained by Perfect Audience / Marin Software.
+These nagios plugins are maintained by [FINI](http://www.fini.net).
 
 [config/](/config/) holds nagios server configs to make it easier to use the plugins repo
 on the nagios server itself.
