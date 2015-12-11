@@ -2,12 +2,12 @@
 
 :warning:  :no_mouth:  This is a public repo.  Don't be :sleepy: or commit secrets :secret: here :exclamation:
 
-These nagios plugins are maintained by [FINI](http://www.fini.net).
+These nagios plugins are maintained by [FINI](http://www.fini.net) for x86_64 CentOS 7 systems.
 
 [config/](/config/) holds nagios server configs to make it easier to use the plugins repo
 on the nagios server itself.
 
-## LInks
+## Links
 
 These are the links typically configured as follows replacing `GIT` with where you
 checked out this repo:
