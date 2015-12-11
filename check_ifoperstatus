@@ -1,4 +1,4 @@
-#! /usr/bin/perl -w
+#!/usr/bin/perl -w
 #
 # check_ifoperstatus.pl - nagios plugin 
 #
@@ -34,7 +34,8 @@
 
 use POSIX;
 use strict;
-use lib "/usr/local/nagios/libexec"  ;
+use FindBin;
+use lib "$FindBin::Bin";
 use utils qw($TIMEOUT %ERRORS &print_revision &support);
 
 use Net::SNMP;
@@ -46,6 +47,10 @@ sub print_help ();
 sub usage ($);
 sub print_usage ();
 sub process_arguments ();
+
+$ENV{'PATH'}='/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin';
+$ENV{'BASH_ENV'}=''; 
+$ENV{'ENV'}='';
 
 my $timeout;
 my $status;
@@ -286,7 +291,7 @@ sub print_usage() {
 }
 
 sub print_help() {
-	print_revision($PROGNAME, '2.0.3');
+	print_revision($PROGNAME, '2.1.0');
 	print_usage();
 	printf "check_ifoperstatus plugin for Nagios monitors operational \n";
 	printf "status of a particular network interface on the target host\n";
@@ -365,7 +370,7 @@ sub process_arguments() {
 	}
 
 	if ($opt_V) {
-		print_revision($PROGNAME,'2.0.3');
+		print_revision($PROGNAME,'2.1.0');
 		exit $ERRORS{'OK'};
 	}
 
