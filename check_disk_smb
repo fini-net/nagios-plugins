@@ -53,7 +53,7 @@ GetOptions
 	 "a=s" => \$opt_a, "address=s" => \$opt_a);
 
 if ($opt_V) {
-	print_revision($PROGNAME,'2.1.0'); #'
+	print_revision($PROGNAME,'2.1.1'); #'
 	exit $ERRORS{'OK'};
 }
 
@@ -291,7 +291,7 @@ sub print_usage () {
 }
 
 sub print_help () {
-	print_revision($PROGNAME,'2.1.0');
+	print_revision($PROGNAME,'2.1.1');
 	print "Copyright (c) 2000 Michael Anthon/Karl DeBisschop
 
 Perl Check SMB Disk plugin for Nagios

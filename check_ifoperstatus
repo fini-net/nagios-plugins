@@ -291,7 +291,7 @@ sub print_usage() {
 }
 
 sub print_help() {
-	print_revision($PROGNAME, '2.1.0');
+	print_revision($PROGNAME, '2.1.1');
 	print_usage();
 	printf "check_ifoperstatus plugin for Nagios monitors operational \n";
 	printf "status of a particular network interface on the target host\n";
@@ -370,7 +370,7 @@ sub process_arguments() {
 	}
 
 	if ($opt_V) {
-		print_revision($PROGNAME,'2.1.0');
+		print_revision($PROGNAME,'2.1.1');
 		exit $ERRORS{'OK'};
 	}
 

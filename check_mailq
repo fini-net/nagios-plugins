@@ -572,7 +572,7 @@ sub process_arguments(){
 		 );
 
 	if ($opt_V) {
-		print_revision($PROGNAME,'2.1.0');
+		print_revision($PROGNAME,'2.1.1');
 		exit $ERRORS{'OK'};
 	}
 
@@ -653,7 +653,7 @@ sub print_usage () {
 }
 
 sub print_help () {
-	print_revision($PROGNAME,'2.1.0');
+	print_revision($PROGNAME,'2.1.1');
 	print "Copyright (c) 2002 Subhendu Ghosh/Carlos Canau/Benjamin Schmid\n";
 	print "\n";
 	print_usage();
