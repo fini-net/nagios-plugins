@@ -12,8 +12,8 @@ on the nagios server itself.
 These are the links typically configured as follows replacing `GIT` with where you
 checked out this repo:
 
-* `/usr/lib/nagios/plugins/` -> `GIT`
-* `/etc/nagios-plugins/config/` -> `GIT/config`
+* `/usr/lib64/nagios/plugins/` -> `GIT`
+* `/etc/nagios/plugins-cfg/` -> `GIT/config`
 
 ## Docs
 
